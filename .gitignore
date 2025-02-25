@@ -1,0 +1,12 @@
+# C# ignore
+.idea
+.vs
+bin
+obj
+TestResults
+*.DotSettings.user
+
+# Python ignore
+.vscode
+.pytest_cache
+__pycache__

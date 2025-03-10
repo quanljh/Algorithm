@@ -1,21 +1,11 @@
-﻿using Algorithm;
+﻿using Algorithm.Sorts;
 
-namespace TestProject1;
+namespace TestProject1.Sorts;
 
-public class Sort
+public class MergeSortTests
 {
     [Fact]
-    public void SortTests()
-    {
-        var array = new[] { 5, 2, 4, 6, 1, 3 };
-
-        new InsertionSort().Sort(array);
-
-        Assert.Equal(new[] { 1, 2, 3, 4, 5, 6 }, array);
-    }
-    
-    [Fact]
-    public void MergeTests()
+    public void MergeTest()
     {
         var array = new[] { 1, 2, 3, 2, 3, 6 };
 
@@ -25,7 +15,7 @@ public class Sort
     }
     
     [Fact]
-    public void MergeSortTests()
+    public void MergeSortTest()
     {
         var array = new[] { 1, 2, 4, 7, 2, 3, 5, 6 };
 

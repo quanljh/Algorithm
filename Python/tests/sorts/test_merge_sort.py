@@ -1,5 +1,5 @@
 import os
-from src.merge_sort import merge, merge_sort
+from src.sorts.merge_sort import merge, merge_sort
 
 def test_merge():
     array = [2,3,6,5,7,9]

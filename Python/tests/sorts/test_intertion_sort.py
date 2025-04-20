@@ -1,5 +1,5 @@
 import os
-from src.insertion_sort import sort
+from src.sorts.insertion_sort import sort
 
 def test_insertion_sort():
     array = [2,3,6,5,12,1]
